@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="12" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-29T02:00:06Z" name="Suite" finished-at="2025-03-29T02:00:23Z" duration-ms="16558">
+    <groups>
+    </groups>
+    <test started-at="2025-03-29T02:00:06Z" name="Test" finished-at="2025-03-29T02:00:23Z" duration-ms="16558">
+      <class name="com.ng.OrangeHRMTest">
+        <test-method signature="hrm()[pri:0, instance:com.ng.OrangeHRMTest@40a4337a]" started-at="2025-03-29T02:00:06Z" name="hrm" finished-at="2025-03-29T02:00:23Z" duration-ms="16504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hrm -->
+      </class> <!-- com.ng.OrangeHRMTest -->
+      <class name="com.ng.JqueryTest">
+        <test-method signature="jQuery()[pri:0, instance:com.ng.JqueryTest@6025e1b6]" started-at="2025-03-29T02:00:06Z" name="jQuery" finished-at="2025-03-29T02:00:16Z" duration-ms="9480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jQuery -->
+      </class> <!-- com.ng.JqueryTest -->
+      <class name="com.ng.FacebookTest">
+        <test-method signature="fb()[pri:0, instance:com.ng.FacebookTest@22ff4249]" started-at="2025-03-29T02:00:06Z" name="fb" finished-at="2025-03-29T02:00:17Z" duration-ms="10708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fb -->
+      </class> <!-- com.ng.FacebookTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite started-at="2025-03-29T02:00:57Z" name="Suite (1)" finished-at="2025-03-29T02:01:36Z" duration-ms="38707">
+    <groups>
+    </groups>
+    <test started-at="2025-03-29T02:00:57Z" name="Test" finished-at="2025-03-29T02:01:36Z" duration-ms="38707">
+      <class name="com.all.OrangeHRMTest">
+        <test-method signature="hrm()[pri:0, instance:com.all.OrangeHRMTest@b3ca52e]" started-at="2025-03-29T02:00:57Z" name="hrm" finished-at="2025-03-29T02:01:06Z" duration-ms="9058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hrm -->
+      </class> <!-- com.all.OrangeHRMTest -->
+      <class name="com.all.FacebookTest">
+        <test-method signature="fb()[pri:0, instance:com.all.FacebookTest@2925bf5b]" started-at="2025-03-29T02:01:31Z" name="fb" finished-at="2025-03-29T02:01:36Z" duration-ms="4681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fb -->
+      </class> <!-- com.all.FacebookTest -->
+      <class name="com.all.IHGDropDownTest">
+        <test-method signature="ihgDropdown()[pri:0, instance:com.all.IHGDropDownTest@45c7e403]" started-at="2025-03-29T02:01:06Z" name="ihgDropdown" finished-at="2025-03-29T02:01:31Z" duration-ms="24964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ihgDropdown -->
+      </class> <!-- com.all.IHGDropDownTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (1) -->
+  <suite started-at="2025-03-29T02:00:23Z" name="Suite (0)" finished-at="2025-03-29T02:00:57Z" duration-ms="34271">
+    <groups>
+      <group name="regression">
+        <method signature="IHGDropDownTest.ihgDropdown()[pri:0, instance:com.grp.IHGDropDownTest@198b6731]" name="ihgDropdown" class="com.grp.IHGDropDownTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="OrangeHRMTest.hrm()[pri:0, instance:com.grp.OrangeHRMTest@3857f613]" name="hrm" class="com.grp.OrangeHRMTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="IHGDropDownTest.ihgDropdown()[pri:0, instance:com.grp.IHGDropDownTest@198b6731]" name="ihgDropdown" class="com.grp.IHGDropDownTest"/>
+        <method signature="OrangeHRMTest.hrm()[pri:0, instance:com.grp.OrangeHRMTest@3857f613]" name="hrm" class="com.grp.OrangeHRMTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-03-29T02:00:23Z" name="Test" finished-at="2025-03-29T02:00:57Z" duration-ms="34271">
+      <class name="com.grp.IHGDropDownTest">
+        <test-method signature="ihgDropdown()[pri:0, instance:com.grp.IHGDropDownTest@198b6731]" started-at="2025-03-29T02:00:32Z" name="ihgDropdown" finished-at="2025-03-29T02:00:57Z" duration-ms="25310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ihgDropdown -->
+      </class> <!-- com.grp.IHGDropDownTest -->
+      <class name="com.grp.OrangeHRMTest">
+        <test-method signature="hrm()[pri:0, instance:com.grp.OrangeHRMTest@3857f613]" started-at="2025-03-29T02:00:23Z" name="hrm" finished-at="2025-03-29T02:00:32Z" duration-ms="8959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hrm -->
+      </class> <!-- com.grp.OrangeHRMTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+  <suite started-at="2025-03-29T02:01:36Z" name="Suite (2)" finished-at="2025-03-29T02:01:54Z" duration-ms="18065">
+    <groups>
+    </groups>
+    <test started-at="2025-03-29T02:01:36Z" name="Test" finished-at="2025-03-29T02:01:54Z" duration-ms="18065">
+      <class name="com.miss.FacebookTest">
+        <test-method signature="fb()[pri:0, instance:com.miss.FacebookTest@b2c9a9c]" started-at="2025-03-29T02:01:36Z" name="fb" finished-at="2025-03-29T02:01:42Z" duration-ms="6337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fb -->
+      </class> <!-- com.miss.FacebookTest -->
+      <class name="com.miss.OrangeHRMTest">
+        <test-method signature="hrm()[pri:0, instance:com.miss.OrangeHRMTest@4c178a76]" started-at="2025-03-29T02:01:42Z" name="hrm" finished-at="2025-03-29T02:01:54Z" duration-ms="11727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hrm -->
+      </class> <!-- com.miss.OrangeHRMTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (2) -->
+</testng-results>

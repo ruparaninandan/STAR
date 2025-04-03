@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite (1)]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="com.all.FacebookTest">
+        <methods>
+          <include name="fb"/>
+        </methods>
+      </class> <!-- com.all.FacebookTest -->
+      <class name="com.all.IHGDropDownTest">
+        <methods>
+          <include name="ihgDropdown"/>
+        </methods>
+      </class> <!-- com.all.IHGDropDownTest -->
+      <class name="com.all.OrangeHRMTest">
+        <methods>
+          <include name="hrm"/>
+        </methods>
+      </class> <!-- com.all.OrangeHRMTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite (1)] -->

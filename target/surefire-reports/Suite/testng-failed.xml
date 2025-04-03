@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="5" verbose="0" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.ng.OrangeHRMTest">
+        <methods>
+          <include name="hrm"/>
+        </methods>
+      </class> <!-- com.ng.OrangeHRMTest -->
+      <class name="com.ng.FacebookTest">
+        <methods>
+          <include name="fb"/>
+        </methods>
+      </class> <!-- com.ng.FacebookTest -->
+      <class name="com.ng.JqueryTest">
+        <methods>
+          <include name="jQuery"/>
+        </methods>
+      </class> <!-- com.ng.JqueryTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

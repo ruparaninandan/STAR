@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17061" started-at="2025-01-10T00:13:35Z" finished-at="2025-01-10T00:13:53Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17061" started-at="2025-01-10T00:13:35Z" finished-at="2025-01-10T00:13:53Z">
+      <class name="com.miss.FacebookTest">
+        <test-method status="PASS" signature="fb()[pri:0, instance:com.miss.FacebookTest@6ad5c04e]" name="fb" duration-ms="5742" started-at="2025-01-10T05:43:35Z" finished-at="2025-01-10T05:43:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fb -->
+      </class> <!-- com.miss.FacebookTest -->
+      <class name="com.miss.OrangeHRMTest">
+        <test-method status="PASS" signature="hrm()[pri:0, instance:com.miss.OrangeHRMTest@2aaf7cc2]" name="hrm" duration-ms="11278" started-at="2025-01-10T05:43:41Z" finished-at="2025-01-10T05:43:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hrm -->
+      </class> <!-- com.miss.OrangeHRMTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
